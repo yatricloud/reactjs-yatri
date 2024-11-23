@@ -118,13 +118,13 @@ function App() {
         <div className="w-full max-w-4xl mx-auto space-y-6 mt-8">
           {/* Social Media Links */}
           <div className="flex justify-center gap-4 md:gap-8 p-4 bg-white/5 backdrop-blur-sm rounded-full border border-white/10 animate-fade-in-delay-2 overflow-x-auto">
-            <SocialLink href="https://github.com" icon={<Github size={24} />} label="GitHub" />
-            <SocialLink href="https://twitter.com" icon={<Twitter size={24} />} label="Twitter" />
-            <SocialLink href="https://instagram.com" icon={<Instagram size={24} />} label="Instagram" />
-            <SocialLink href="https://youtube.com" icon={<Youtube size={24} />} label="YouTube" />
-            <SocialLink href="https://wa.me/your-number" icon={<MessageSquare size={24} />} label="WhatsApp" />
-            <SocialLink href="https://t.me/your-username" icon={<Send size={24} />} label="Telegram" />
-            <SocialLink href="https://linktr.ee" icon={<TreePine size={24} />} label="Linktree" />
+            <SocialLink href="https://github.com/yatricloud" icon={<Github size={24} />} label="GitHub" />
+            <SocialLink href="https://twitter.com/yatricloud" icon={<Twitter size={24} />} label="Twitter" />
+            <SocialLink href="https://instagram.com/yatricloud" icon={<Instagram size={24} />} label="Instagram" />
+            <SocialLink href="https://www.youtube.com/@yatricloud?sub_confirmation=1&sub_confirmation=1" icon={<Youtube size={24} />} label="YouTube" />
+            <SocialLink href="https://chat.whatsapp.com/IkZeL8QnqzM1Scagxq5whu" icon={<MessageSquare size={24} />} label="WhatsApp" />
+            <SocialLink href="https://t.me/yatricloud" icon={<Send size={24} />} label="Telegram" />
+            <SocialLink href="https://linktr.ee/yatricloud" icon={<TreePine size={24} />} label="Linktree" />
           </div>
 
           {/* Copyright */}
