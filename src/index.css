@@ -5,7 +5,7 @@
 @keyframes fade-in {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   to {
     opacity: 1;
@@ -16,11 +16,11 @@
 @keyframes fade-in-delay {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   50% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     opacity: 1;
@@ -31,11 +31,11 @@
 @keyframes fade-in-delay-2 {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   66% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     opacity: 1;
@@ -71,15 +71,15 @@
 }
 
 .animate-fade-in {
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in 0.5s ease-out forwards;
 }
 
 .animate-fade-in-delay {
-  animation: fade-in-delay 1.5s ease-out forwards;
+  animation: fade-in-delay 0.8s ease-out forwards;
 }
 
 .animate-fade-in-delay-2 {
-  animation: fade-in-delay-2 2s ease-out forwards;
+  animation: fade-in-delay-2 1s ease-out forwards;
 }
 
 .animate-float {

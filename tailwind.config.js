@@ -13,6 +13,8 @@ export default {
         'float': 'float 3s ease-in-out infinite',
         'slow-spin': 'slow-spin 20s linear infinite',
         'slow-spin-reverse': 'slow-spin-reverse 25s linear infinite',
+        'spin-slow': 'spin 10s linear infinite',
+        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
     },
   },
