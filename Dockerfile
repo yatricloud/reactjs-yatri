@@ -1,20 +1,26 @@
 # Use an official Node.js runtime as the base image
 FROM node:16-alpine
 
-# Set the working directory in the container
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json (if available)
-COPY package.json ./
+# Copy package.json and package-lock.json to the working directory
+COPY package.json package-lock.json ./
 
 # Install dependencies
 RUN npm install
 
-# Copy the rest of the application code
+# Copy the rest of the application code to the working directory
 COPY . .
 
-# Expose the port the app runs on
-EXPOSE 3000
+# Build the application for production
+RUN npm run build
 
-# Command to run the application
-CMD ["npm", "run", "dev"]
+# Install a lightweight web server for serving the built files
+RUN npm install -g serve
+
+# Expose the port that Vite runs on
+EXPOSE 5173
+
+# Command to serve the production build
+CMD ["serve", "-s", "dist", "-l", "5173"]
