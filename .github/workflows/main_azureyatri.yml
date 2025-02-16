@@ -70,5 +70,5 @@ jobs:
         with:
           app-name: 'azureyatri'
           slot-name: 'Production'
-          package: .
+          package: ./build
           
